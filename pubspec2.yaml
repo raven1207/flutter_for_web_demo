@@ -1,0 +1,391 @@
+name: new_project
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+#
+# This version is used _only_ for the Runner app, which is used if you just do
+# a `flutter run` or a `flutter make-host-app-editable`. It has no impact
+# on any other native host app that you embed your Flutter project into.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+dev_dependencies:
+  json_serializable: ^3.5.0
+  crypto: ^2.1.1+1
+  effective_dart: ^1.3.0
+
+
+dependency_overrides:
+  #  acg_flutter_channel:
+  #    path: '../acg_flutter_channel'
+#  acg_gamecontroller_uikit_plugin:
+#    path: '../acg_gamecontroller_uikit_plugin'
+#  acggame_paassdk_flutter_plugin:
+#    path: '../ACGGamePaasSDKFlutter'
+  #  ui_flutter:
+  #    path: '../ykfe_ui_flutter'
+  cupertino_icons: ^1.0.0
+  extend_listview:
+    hosted:
+      name: extend_listview
+      url: https://flutter.alibaba-inc.com
+    version: ^0.2.0
+  photo_view:
+    hosted:
+      name: photo_view
+      url: https://pub.flutter-io.cn
+    version: ^0.10.3
+  expose_checker:
+    hosted:
+      name: expose_checker
+      url: https://flutter.alibaba-inc.com
+    version: ^0.0.8
+  cached_network_image: 2.2.0
+  flutter_cache_manager: ^1.2.0
+  path_provider: ^1.4.0
+  http: ^0.12.0+2
+  ######################## 业务库（这里统一配置版本号，子模块里不用再改依赖版本）
+  acg_ui_flutter:
+    git:
+      url: git@gitlab.alibaba-inc.com:ygfe/acg_ui_flutter.git
+      # ref: dev/20210309
+      ref: 1.0.4
+    # path: '../acg_ui_flutter'
+
+  acg_flutter_theme:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_flutter_theme.git
+#      ref: dev/20210202
+      ref: 1.0.3
+      # path: '../acg_flutter_theme' //缓存数据处理
+
+  # acg_flutter_component:
+  #   git:
+  #     url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_flutter_component.git
+  #     ref: 1.1.1
+#      ref: dev/20210323
+#      path: '../acg_flutter_component'
+
+  # acg_flutter_channel:
+  #   git:
+  #     url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_flutter_channel.git
+  #     ref: 1.0.14
+#      ref: dev/20210406
+
+  acg_gamecontroller_uikit_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_gamecontroller_uikit_plugin.git
+#      ref: 1.0.15
+      ref: dev/20210427
+
+  acggame_paassdk_flutter_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/ACGGamePaasSDKFlutter.git
+#      ref: dev/20210413
+      ref: 1.0.18
+
+  permission_handler:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/permission_handler.git
+      ref: 5.1.0+2
+  ####################业务依赖 end
+
+  # ali_flutter:
+  #   git:
+  #     url: 'git@gitlab.alibaba-inc.com:ali-flutter/AliFlutter.git'
+  #     ref: 0.0.61
+
+  alicdn_image_flutter_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:ali-flutter-middleware/plugin-alicdn-image.git
+      ref: 1.22.x
+
+  ### 接入uccomment
+  ump_comment_component_qk:
+    git:
+      url: git@gitlab.alibaba-inc.com:sm-client/ump_comment_component_qk.git
+      # ref: feature/qk
+      ref: v1.1.1
+      # path: '../ump_comment_component_qk'
+  ### 高可用https://yuque.antfin.com/flutter-apm/mruaxm/ldpw64
+  high_available:
+    git:
+      url: git@gitlab.alibaba-inc.com:idlefish/FlutterHighAvailable.git
+      ref: v2.0.5_flutter_1.22
+
+  flutter_svg: ^0.18.0
+  xml: ^4.1.0
+  petitparser: ^3.0.0
+  json_annotation: ^3.1.0
+  image_gallery_saver: 1.6.8
+  ### 本地广播组件
+  flutter_local_notifications:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/flutter_local_notifications.git
+      ref: master
+
+  ### 接入ucwebview
+  acg_browser_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:qingwan-android/acg_browser_plugin.git
+      ref: master
+
+  acg_flutter_dev_tool:
+    git:
+       url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_flutter_dev_tool.git
+       ref: master
+#       path: '../acg_flutter_dev_tool'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # flutter_localizations:
+  #   sdk: flutter  
+  extend_listview:
+    hosted:
+      name: extend_listview
+      url: https://flutter.alibaba-inc.com
+    version: ^0.2.0
+  ######################## 业务库,这里版本号不需要动，版本全部在dependency_overrides里指定
+  acg_ui_flutter:
+     git:
+       url: git@gitlab.alibaba-inc.com:ygfe/acg_ui_flutter.git
+       ref:  1.0.0
+  acg_flutter_theme:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_flutter_theme.git
+      ref: dev/20210113
+      # ref: 1.0.0
+  # acg_flutter_component:
+  #   git:
+  #     url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_flutter_component.git
+  #     ref: 1.0.9
+  # acg_flutter_channel:
+  #   git:
+  #     url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_flutter_channel.git
+  #     ref: 1.0.8
+  acg_gamecontroller_uikit_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/acg_gamecontroller_uikit_plugin.git
+      ref: 1.0.11
+  acggame_paassdk_flutter_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/ACGGamePaasSDKFlutter.git
+      ref: dev/20210413
+  permission_handler:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/permission_handler.git
+      ref: 5.1.0+2
+  ######################## 集团库
+  ###  uc 播放器
+  ump_video_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:uc-pub/ump_video_plugin.git
+      # ref: 1.7-cloud
+      ref: 1.9-cloud
+
+  ### dx flutter
+  dx_flutter:
+    git:
+      url: git@gitlab.alibaba-inc.com:idlefish/dx-flutter.git
+      ref: 0.2.7.1
+
+  ### ali flutter
+  # ali_flutter:
+  #   git:
+  #     url: git@gitlab.alibaba-inc.com:ali-flutter/AliFlutter.git
+  #     ref: 0.0.61
+  #### lottie
+  fish_lottie:
+    git:
+      url: 'git@gitlab.alibaba-inc.com:idlefish/fish-lottie.git'
+      ref: 'v1.0.4'
+  apm_uploader:
+    git:
+      url: git@gitlab.alibaba-inc.com:idlefish-flutter-plugins/apm_uploader.git
+      ref: v1.0.6
+
+  ### 本地广播组件
+  flutter_local_notifications:
+    git:
+      url: git@gitlab.alibaba-inc.com:AliCloudGame/flutter_local_notifications.git
+      ref: master
+
+  ### 接入ucwebview
+  acg_browser_plugin:
+    git:
+      url: git@gitlab.alibaba-inc.com:qingwan-android/acg_browser_plugin.git
+      ref: master
+  ### 接入uccomment
+  ump_comment_component_qk:
+    git:
+      url: git@gitlab.alibaba-inc.com:sm-client/ump_comment_component_qk.git
+      ref: feature/qk
+  pull_to_refresh: 1.6.3
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.5.6
+  stream_transform: ^1.1.0
+  auto_orientation: ^1.0.6
+  flutter_parsed_text: ^1.2.5
+  json_annotation: ^3.1.0
+  image_gallery_saver: ^1.6.8
+  flutter_tags: ^0.4.9+1
+  scrollable_positioned_list: ^0.1.8
+  flutter_swiper : ^1.1.6
+  visibility_detector: ^0.1.5
+  device_info: ^1.0.0
+  bubble_box: ^0.2.0
+  #webview_flutter: ^1.0.7
+
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add Flutter specific assets to your application, add an assets section,
+  # like this:
+  assets:
+    - lib/assets/image/
+#    - lib/assets/image/game/back.png
+#    - lib/assets/image/game/back1.png
+    - lib/assets/image/qw_combine_icon.png
+    - lib/assets/image/game/play1.png
+    - lib/assets/image/game/introduction.png
+#    - lib/assets/image/default_bg.png
+    - lib/assets/image/default_bg1.png
+    - lib/assets/image/game/play.png
+    - lib/assets/image/game/timer.png
+    - lib/assets/image/game/left_arrow.png
+    - lib/assets/image/game/right_arrow.png
+    - lib/assets/image/game/menu_chapter.png
+    - lib/assets/image/game/menu_exit.png
+    - lib/assets/image/game/menu_hide.png
+    - lib/assets/image/game/menu_feedback.png
+    - lib/assets/image/game/menu_reboot.png
+    - lib/assets/image/game/menu_wifi3.png
+    - lib/assets/image/game/menu_wifi2.png
+    - lib/assets/image/game/menu_wifi1.png
+    - lib/assets/image/game/menu_cellular3.png
+    - lib/assets/image/game/menu_cellular2.png
+    - lib/assets/image/game/menu_cellular1.png
+#    - lib/assets/image/cardicon_gamestart.png
+    - lib/assets/image/btn.png
+    - lib/assets/image/play_fullscreen_icon.png
+    - lib/assets/image/icon_replay.png
+    - lib/assets/image/mute_icon.png
+    - lib/assets/image/full_icon.png
+    - lib/assets/image/unmute_icon.png
+#    - lib/assets/file/test_autotest_business_taobao_zhibo.json
+#    - lib/assets/file/test_autotest_business_fliggy_homepage.json
+    - lib/assets/file/qingwan_homepage_data.json
+    - lib/assets/file/qingwan_homepage_gamepad_query_data.json
+    - lib/assets/image/setting_icon.png
+    - lib/assets/image/scan_icon.png
+    - lib/assets/image/all_icon.png
+    - lib/assets/image/down_icon.png
+    - lib/assets/guide/home_guide_select_icon.png
+    - lib/assets/guide/newbie_guide.png
+    - lib/assets/guide/fangxiangjian.json
+    - lib/assets/guide/leftyaogan.json
+    - lib/assets/guide/lunpankey.json
+    - lib/assets/guide/rightyaogan.json
+    - lib/assets/guide/yuanxingjian.json
+    - lib/assets/guide/home_guide.json
+    - lib/assets/guide/qingwan_tips_guide.png
+    - lib/assets/guide/qw_new_menu_guide.png
+    - lib/assets/guide/qw_guide_pad_right.png
+#    - lib/assets/guide/def_icon.png
+    - lib/assets/loading/qw_loading.json
+    - lib/assets/image/start_state0.png
+    - lib/assets/image/start_state_challenge.json
+    - lib/assets/image/start_state1.json
+    - lib/assets/image/start_state2.json
+    - lib/assets/image/start_state3.json
+    - lib/assets/image/start_state4.json
+    - lib/assets/image/start_state5.json
+    - lib/assets/image/progress_lottie.json
+    - lib/assets/image/portal.json
+    - lib/assets/image/comment/icon_comment_like.png
+    - lib/assets/image/comment/icon_comment_unlike.png
+    - lib/assets/image/comment/icon_upload.png
+    - lib/assets/image/qw_active_lottie.json
+    - lib/assets/image/main_tab_new_tip.png
+    - lib/assets/image/fragment_rapid_loading.png
+    - lib/assets/image/collect_rapid_loading.png
+    - lib/assets/image/comment/comment_icon.png
+    - lib/assets/image/challenge/next_game_tips.png
+    - lib/assets/image/challenge/new_record.png
+    - lib/assets/image/challenge/challenge_gap.png
+    - lib/assets/image/qw_new_menu_down.png
+    - lib/assets/image/qw_new_menu_up.png
+    - lib/assets/image/qw_new_menu_strategy.png
+    - lib/assets/image/qw_new_menu_video.png
+    - lib/assets/image/qw_new_menu_red.png
+    - lib/assets/image/game/qw_new_game_menu_selectpart.png
+    - lib/assets/image/game/qw_new_game_menu_gamepad.png
+    - lib/assets/image/game/qw_new_game_menu_gamepad_show.png
+    - lib/assets/image/game/qw_new_game_menu_feedback.png
+    - lib/assets/image/game/qw_new_game_menu_reboot.png
+    - lib/assets/image/game/qw_new_game_menu_exit.png
+    - lib/assets/scene/qw_scene01_upleft.json
+    - lib/assets/scene/qw_scene01_downleft.json
+    - lib/assets/scene/qw_scene01_upright.json
+    - lib/assets/scene/qw_scene01_downright.json
+    - lib/assets/scene/qw_scene02_upleft.json
+    - lib/assets/scene/qw_scene02_downleft.json
+    - lib/assets/scene/qw_scene02_upright.json
+    - lib/assets/scene/qw_scene02_downright.json
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add Flutter specific custom fonts to your application, add a fonts
+  # section here, in this "flutter" section. Each entry in this list should
+  # have a "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  # This section identifies your Flutter project as a module meant for
+  # embedding in a native host app.  These identifiers should _not_ ordinarily
+  # be changed after generation - they are used to ensure that the tooling can
+  # maintain consistency when adding or modifying assets and plugins.
+  # They also do not have any bearing on your native host application's
+  # identifiers, which may be completely independent or the same as these.
+  module:
+    androidX: false
+    androidPackage: com.cloudgame.qingwan.flutter
+    iosBundleIdentifier: com.cloudgame.qingwan.flutter
+

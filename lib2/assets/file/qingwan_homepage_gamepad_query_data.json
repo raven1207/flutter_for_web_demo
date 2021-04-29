@@ -1,0 +1,12 @@
+{
+  "api": "mtop.cgame.marketing.gamepad.brand.query",
+  "data": {
+    "name":"北通",
+    "logo":"https://dianliu.alicdn.com/img/faf12ac83f02aa7471a74f07eea5e480.jpg",
+    "introduction":"北通为你推荐游戏。。。。"
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "v": "1.0"
+}

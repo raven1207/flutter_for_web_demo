@@ -1,0 +1,15 @@
+{
+	"name": "PWA Chapter01 Demo",
+	"short_name": "Chapter01 Demo",
+	"icons": [{
+		"src": "https://avatars2.githubusercontent.com/u/7931760?s=192&v=4",
+		"type": "image/png",
+		"sizes": "192x192"
+  }
+],
+	"start_url": "",
+	"scope": "",
+	"display": "standalone",
+	"background_color": "#181818",
+	"theme_color": "#181818"
+}

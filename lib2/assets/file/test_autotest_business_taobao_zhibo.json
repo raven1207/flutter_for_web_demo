@@ -1,0 +1,63 @@
+{
+  "currentePageParam": {
+    "containerId": "main",
+    "spm-cnt": "a2141.1.1.1"
+  },
+  "expireIntervalTimeMillis": "3600000",
+  "ext": {},
+  "sections": [
+    {
+      "template": {
+        "name": "test_autotest_business_taobao_zhibo",
+        "version": "1",
+        "url": "https://ossgw.alicdn.com/rapid-oss-bucket/publish/1552639058718/test_autotest_business_taobao_zhibo.zip"
+      },
+      "item": {
+        "0": {
+          "clickParam": {},
+          "ext": {},
+          "targetUrl": "https://huodong.m.taobao.com/act/snipcode.html?_wml_code=%38L%33YkMelvYxozH%30A%2F%39%30PzLuVDjQ%35F%36duGqy%2BVrvFvxVSvmVCfdQx%36WEg%30iMIGKgHToP%31dNkvMlk%34MQQDe%35TD%31STPfCW%37KRNEjv%30xt%32ITkKo%3D",
+          "voiceText": "",
+          "content": {
+            "subTitleIcon": "https://gw.alicdn.com/tfs/TB1LNpKtDtYBeNjy1XdXXXXyVXa-261-90.png",
+            "shopPrice": "$88",
+            "noShopImage": "https://gw.alicdn.com/tfs/TB1mvHOzIfpK1RjSZFOXXa6nFXa-681-66.png",
+            "praiseCount": "29849",
+            "headerImage": "//img.alicdn.com/imgextra/i2/2770323584/TB2lT9mp4RDOuFjSZFzXXcIipXa_!!2770323584-0-beehive-scenes.jpg",
+            "praiseImage": "https://gw.alicdn.com/tfs/TB1lscizSrqK1RjSZK9XXXyypXa-36-30.png",
+            "shopImage": "//img.alicdn.com/imgextra/i2/2770323584/TB2lT9mp4RDOuFjSZFzXXcIipXa_!!2770323584-0-beehive-scenes.jpg",
+            "nickname": "我吃西haha",
+            "videoImg": "//gw.alicdn.com/tfscom/i4/TB2U0pbtbuWBuNjSszgXXb8jVXa_!!0-dgshop.jpg",
+            "shopTitle": "商品标题哈哈哈哈哈",
+            "title": "阳澄湖大闸蟹的来了品鉴",
+            "watchCount": "298340"
+          }
+        }
+      },
+      "__preview__": {
+        "bizType": "testbiz",
+        "android": [
+          {
+            "bundleName": "main",
+            "className": "dinamic.taobao.com.dinamicx_demo.DXDemoPreviewInterfaceImpl"
+          },
+          {
+            "bundleName": "main",
+            "className": "com.taobao.tbbuy4android.RBKDXPreview"
+          }
+        ],
+        "iOS": [
+          {
+            "bundleName": "main",
+            "className": "DXDemoRegistar"
+          },
+          {
+            "bundleName": "main",
+            "className": "RBKDXPreview"
+          }
+        ]
+      }
+    }
+  ],
+  "traceId": "0b8f4f6415135984257336171ecd8a"
+}

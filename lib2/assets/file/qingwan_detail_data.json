@@ -1,0 +1,211 @@
+{
+	"api": "mtop.liteplay.quick.lite.line.get",
+	"data": {
+		"cardList": [{
+			"cardType": "2",
+			"description": "轻玩卡片",
+			"title": "第三章-迈向战争之旅"
+		}, {
+			"cardType": "1",
+			"description": "攻打雅典人，杀死敌人证明自己的能力，此时会开启一个征服过度模式。",
+			"hasPlayed": "true",
+			"lastPlayed": "true",
+			"litePlayId": "1001",
+			"playedCount": "15",
+			"title": "01|攻打雅典人",
+			"video": {
+				"coverUrl": "https://livegame.youku.com/operating/img/2020-06-24/30eb650142137fbfe89e5a01c9fea0c51593005149060.jpg",
+				"duration": "201"
+			}
+		}, {
+			"cardType": "1",
+			"description": "寻找被关押的少主",
+			"litePlayId": "1002",
+			"playedCount": "25",
+			"title": "02|寻找少主",
+			"video": {
+				"coverUrl": "https://livegame.youku.com/operating/img/2020-10-15/acaa24f4b189b46e8ff43cf9c8f6a1e41602754891515.jpg",
+				"duration": "201"
+			}
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1003",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "03|少主的回忆"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1004",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "04|少主的回忆"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1005",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "5|少主的回忆5"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1006",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "6|少主的回忆6"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1007",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "7|少主的回忆7"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1008",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "8|少主的回忆8"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1009",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "9|少主的回忆9"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1010",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "10|少主的回忆10"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1011",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "11|少主的回忆11"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1012",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "12|少主的回忆12"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1013",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "13|少主的回忆13"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1014",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "14|少主的回忆14"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1015",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "15|少主的回忆15"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1016",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "16|少主的回忆16"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1017",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "17|少主的回忆17"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1018",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "18|少主的回忆18"
+		}, {
+			"cardType": "3",
+			"description": "剧情动画说明，仅播放视频。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。无游戏内容，剧情动画说明。",
+			"litePlayId": "1019",
+			"tag": {
+				"tagIcon": "",
+				"tagName": "剧情动画",
+				"targetUrl": "blob:https://v.youku.com/34c047a6-425e-4e57-9192-a09aeb4dc58c"
+			},
+			"title": "19|少主的回忆19"
+		}],
+		"expectedDuration": "1200",
+		"liteLineCardNum": "10",
+		"liteLineDescription": "你是“独臂之狼”，一个名誉不再、伤痕累累的忍者，一个从死亡边缘捡回一命的战士。你效忠守护继承古老血统的年轻皇子，与危险的苇名一族以及众多凶恶之徒为敌。年轻的皇子被抓走后，为挽回荣誉，你将不畏死亡，踏上危机四伏的征程。 探索生死冲突不断的16世纪后期，感受残酷的日本战国时代，在黑暗、扭曲的世界，与威胁生命的敌人对峙。活用义手装备各种致命武器，大显忍者身手，在血腥对抗中潜行、上下穿梭，与敌人正面激烈交锋。",
+		"liteLineId": "1",
+		"liteLineTitle": "轻线demo",
+		"picUrl": "https://livegame.youku.com/operating/img/2020-10-15/acaa24f4b189b46e8ff43cf9c8f6a1e41602754891515.jpg",
+		"playedCount": "86"
+	},
+	"ret": ["SUCCESS::调用成功"],
+	"v": "1.0"
+}
